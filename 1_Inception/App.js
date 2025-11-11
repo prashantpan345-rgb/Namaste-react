@@ -12,7 +12,11 @@ const heading = React.createElement(
   {
     id: "title",
     style: {
+<<<<<<< HEAD
       background:"red",
+=======
+      background:"red",               // This code is similar to { <h1 id="title" style={{background:"red"}}>heading</h1> }
+>>>>>>> 80c038f (Ingnition our app)
     },
     className:"title"
   },
@@ -21,7 +25,11 @@ const heading = React.createElement(
 const heading1 = React.createElement(
   "h1",
   {
+<<<<<<< HEAD
     id: "title",
+=======
+    id: "title",                      // This code is similar to { <h1 id="title">heading1</h1> }
+>>>>>>> 80c038f (Ingnition our app)
   },
   "heading1"
 );
@@ -29,12 +37,20 @@ const heading1 = React.createElement(
 const container = React.createElement(
   "div",
   {
+<<<<<<< HEAD
     id: "container",
+=======
+    id: "container",            // This code is similar to { <div id="container">...</div> }
+>>>>>>> 80c038f (Ingnition our app)
   },
   [heading, heading1]
 );
 
 // create root using createRoot
+<<<<<<< HEAD
 const root = ReactDOM.createRoot(document.getElementById("root"));
+=======
+const root = ReactDOM.createRoot(document.getElementById("root"));   
+>>>>>>> 80c038f (Ingnition our app)
 // passing react element inside root
 root.render(container);
